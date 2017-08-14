@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-if [ -f $1/webpack.config.js ]; then
-  echo "Webpack buildpack"
+if [ -f $1/.threadbare ]; then
+  echo "ThreadBare buildpack"
   exit 0
 else
   exit 1
